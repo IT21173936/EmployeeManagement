@@ -1,0 +1,236 @@
+.hole {
+	background: url('../images/emp.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 1000px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+ /* background:red; /*Once added, remove this color*/
+
+}
+
+.topnav {
+  overflow: hidden;
+  z-index:43;
+}
+
+.header{     
+
+	height:150px;
+    background-color: #333;
+    opacity: 40%; /*once added, change to your  preference*/	
+}
+
+.header a{
+	color: white;
+}
+
+.header img.logo{
+	height: 100px;
+	opacity:100%;
+	z-index:44;
+	position: absolute;
+	margin:30px;
+	
+}
+
+.topnav a {
+  float: left;
+  display:inline; 
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #f2e4b9;
+  color: white;
+}
+
+.topnav a.first {
+  margin-left: 30%;
+}
+
+.topnav a.last {
+  margin-right: 10%;
+}
+
+.header img.profile{
+	position:absolute;
+	opacity: 100%;
+	width:50px;
+	margin: 35px 30px 30px 90%;
+	float: right;
+	z-index:46;
+}
+
+
+/*Page middle css*/
+.middle {
+	padding: 5px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	background: white;
+	width: 99%;
+	opacity: 0.8;
+	border-radius: 20px;
+}
+
+.middle a {
+	justify-content: center;
+	gap: 20px;
+	text-decoration: none;
+	background: #34c9eb;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 10px;
+}
+
+.middle a:hover {
+	background: #2cbf5d;
+	padding: 10px 20px;
+	color: black;
+}
+
+input[type=text] {
+	width: 90%;
+	font-size: 16px;
+	padding: 5px;
+	margin-top: 6px;
+}
+
+input[type=email] {
+	width: 90%;
+	font-size: 16px;
+	padding: 5px;
+	margin-top: 6px;
+}
+
+input[type=number] {
+	width: 90%;
+	font-size: 16px;
+	padding: 5px;
+	margin-top: 6px;
+}
+
+textarea {
+	width: 90%;
+	font-size: 16px;
+	padding: 5px;
+	margin-top: 6px;
+}
+
+input[type=date] {
+	width: 90%;
+	font-size: 16px;
+	padding: 5px;
+	margin-top: 6px;
+}
+
+select {
+	width: 93%;
+	font-size: 16px;
+	padding: 5px;
+	margin-top: 6px;
+}
+
+label {
+	font-weight: 600;
+	margin-top: 5px;
+}
+
+input[type=submit] {
+	width: 50%;
+	padding: 5px;
+	margin-top: 6px;
+	background: #34eb6e;
+	border: none;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+input[type=submit]:hover {
+	width: 93%;
+	transition: width 2s;
+}
+
+span {
+	color: red;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 2px !important;
+	margin-bottom: 2px !important;
+}
+
+table {
+	margin: 0 auto;
+	text-align: center;
+}
+
+table thead tr th {
+	font-size: 18px;
+	color: red;
+	padding: 5px 15px;
+}
+
+table tbody tr td {
+	font-size: 16px;
+	padding: 5px 15px;
+}
+
+table tbody tr td a {
+	text-decoration: none;
+	color: white;
+}
+
+table tbody tr td .update-btn {
+	background: #34eb6e;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: black;
+	width: 90px !important;
+}
+
+table tbody tr td .update-btn:hover{
+	width: 90px !important;
+	padding: 5px 10px !important; 
+}
+
+
+table tbody tr td .delete {
+	background: #e8574d;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: black;
+	width: 90px !important;
+	cursor: pointer;
+}
+
+table tbody tr td .delete:hover {
+	background: #e8555d;
+}
+
+table tbody tr td .salary-btn {
+	background: blue;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: white;
+	width: 90px !important;
+}
+
+
+table tbody tr td .salary-btn:hover {
+	width: 90px !important;
+	padding: 5px 10px !important;
+	background: #00ffff;
+}
+
+

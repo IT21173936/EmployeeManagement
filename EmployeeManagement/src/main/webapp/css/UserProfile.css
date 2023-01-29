@@ -1,0 +1,140 @@
+@charset "ISO-8859-1";
+
+
+body {
+	display: block;
+	margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('../images/profile.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.topnav a {
+  float: left;
+  display:inline; 
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.topnav a:hover {
+  background-color: #f2e4b9;
+  color: black;
+}
+
+.topnav a.first {
+  margin-left: 30%;
+}
+
+.topnav a.last {
+  margin-right: 10%;
+}
+
+.header img.profile{
+	position:absolute;
+	opacity: 100%;
+	width:50px;
+	margin: 35px 30px 30px 90%;
+	float: right;
+	z-index:46;
+}
+
+
+.middle {
+	display: block;
+	margin: 0 auto;
+	width: 40%;
+	padding: 10px 20px;
+	background: black;
+	opacity: 0.9;
+	color: white;
+	border-radius: 10px;
+	border: none;
+}
+
+.middle h1,h4 {
+	text-align: center;
+}
+
+form {
+	font-size: 21px;
+	font-weight: bold;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input {
+	font-size: 20px;
+}
+
+input[type=text] {
+	width: 100%;
+}
+
+input[type=email] {
+	width: 100%;
+}
+
+input[type=password] {
+	width: 100%;
+}
+
+input[type=number] {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+}
+
+input[type=submit] {
+	width: 100%;
+	font-weight: bold;
+	background: #14de57;
+	border: none;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+select {
+	width: 535px;
+	height: 30px;
+}
+
+a {
+	text-decoration: none;
+	margin: 0 auto;
+	color: white;
+}
+
+.bottom {
+	text-align: center;
+	color: white;
+	background: green;
+	padding: 1px;
+}
+
+.delete input[type=submit] {
+	background: #e65e5e;
+	border-radius: 20px;
+}
+
+span {
+	font-size: 15px !important;
+	color: red !important;
+}
+
+.postadd a {
+	color: white;
+	font-weight: 700;
+	background: green;
+	font-size: 20px;
+	padding: 5px 10px;
+}

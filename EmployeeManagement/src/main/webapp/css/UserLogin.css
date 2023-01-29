@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+
+
+
+body {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	background: url('../images/log.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.top {
+	display: flex;
+	margin-left: auto;
+	background: #3289a8;
+	color: white;
+}
+
+
+.middle {
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+	padding: 10px 20px;
+	background: black;
+	opacity: 0.9;
+	color: white;
+	border-radius: 10px;
+	border: none;
+}
+
+.middle h1,h4 {
+	text-align: center;
+}
+
+form {
+	font-size: 21px;
+	font-weight: bold;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input {
+	font-size: 16px;
+}
+
+input[type=email] {
+	width: 100%;
+}
+
+input[type=password] {
+	width: 100%;
+}
+
+
+
+input[type=submit] {
+	width: 100%;
+	font-weight: bold;
+	background: #3289a8;
+	border: none;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+a {
+	text-decoration: none;
+	margin: 0 auto;
+	color: white;
+}
+
+.bottom {
+	text-align: center;
+	color: white;
+	background: #3289a8;
+	padding: 1px;
+}
